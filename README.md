@@ -2,8 +2,7 @@
 ## Implementation of SmartCalc
 
 The SmartCalc program calculates arithmetic expressions in infix notation with integer or double numbers or variable _x_. In order to calculate arithmetic expressions the programm uses reverse Polish notation and Dijkstra's algorithm
-
-Bracketed arithmetic expressions in infix notation supports the following arithmetic operations and mathematical functions:
+- Bracketed arithmetic expressions in infix notation supports the following arithmetic operations and mathematical functions:
     - **Arithmetic operators**:
 
       | Operator name | Infix notation <br /> (Classic) | Prefix notation <br /> (Polish notation) |  Postfix notation <br /> (Reverse Polish notation) |
@@ -33,6 +32,7 @@ Bracketed arithmetic expressions in infix notation supports the following arithm
       | Computes square root | sqrt(x) |
       | Computes natural logarithm | ln(x) |
       | Computes common logarithm | log(x) |
+
 
 
 The programm has GUI implementation, based on QT library
